@@ -7,14 +7,12 @@
 ```
 import eduardo
 
-nicolas = eduardo.Ed(
-    name='Nicolas',
-    port='8085')
+nicolas = eduardo.Ed(name='Nicolas')
 
-print(nicolas.say('Oi.'))
+print(nicolas.say('Oi.')) # Nicolas: Olá! Tudo bem com você? Posso ajudar?
 ```
 
-Veja mais exemplos no diretório `exemplos`
+Vide o `dialogo.py` para um exemplo mais elaborado.
 
 ## Argumentos:
 
