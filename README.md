@@ -16,6 +16,6 @@ print(nicolas.say('Oi.'))
 
 Argumentos:
 
-**name**: nome do robô
+**name**: nome do robô (Eduardo por padrão)
 
 **port**: necessária para interação entre robôs distintos (8085 por padrão)
