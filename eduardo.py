@@ -18,4 +18,4 @@ class Ed(object):
         charset='utf-8',pure=1,js=0,tst=1, msg=text)
 
         r = requests.get(self.url, params=params)
-        return self.name + ': ' + re.sub(r'\n+$','', r.text)
+        return re.sub(r'\n+$','', r.text)

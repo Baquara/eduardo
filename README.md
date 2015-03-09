@@ -9,7 +9,9 @@ import eduardo
 
 nicolas = eduardo.Ed(name='Nicolas')
 
-print(nicolas.say('Oi.')) # Nicolas: Olá! Tudo bem com você? Posso ajudar?
+texto = nicolas.name + ': ' + nicolas.say('Oi.')
+
+print(texto) # Nicolas: Olá! Tudo bem com você? Posso ajudar?
 ```
 
 Vide o script `dialogo.py` para um exemplo mais elaborado.
