@@ -14,7 +14,9 @@ nicolas = eduardo.Ed(
 print(nicolas.say('Oi.'))
 ```
 
-Argumentos:
+Veja mais exemplos no diretório `exemplos`
+
+## Argumentos:
 
 **name**: nome do robô (Eduardo por padrão)
 
