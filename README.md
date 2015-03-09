@@ -2,21 +2,24 @@
 
 #### Interface em Python para o [Robô Ed](http://www.ed.conpet.gov.br/br/converse.php)
 
-## Uso:
+## Uso
 
 ```
 from eduardo import Ed
 
-nicolas = Ed(name='Nicolas')
+ed = Ed()
 
-texto = nicolas.name + ': ' + nicolas.say('Oi.')
+print('Clique <ctrl> + C para sair')
 
-print(texto) # Nicolas: Olá! Tudo bem com você? Posso ajudar?
+while True:
+    msg = input('Você: ')
+    texto = ed.name + ': ' + ed.say(msg)
+
 ```
 
 Vide o script `dialogo.py` para um exemplo mais elaborado.
 
-## Argumentos:
+## Parâmetros
 
 **name**: nome do robô (Eduardo por padrão)
 
