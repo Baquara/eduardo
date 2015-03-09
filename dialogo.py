@@ -1,6 +1,5 @@
 # Inspirado por https://gist.github.com/Fedalto/5017878
-from .. import eduardo
-from time import sleep
+import eduardo, time
 
 nicolas = eduardo.Ed(
     name='Nicolas',
@@ -16,6 +15,6 @@ msg='Oi'
 while True:
     print(jesus.name + ': ' + msg)
     msg = nicolas.say(msg)
-    sleep(1)
+    time.sleep(1)
     print(nicolas.name + ': ' + msg)
     msg=jesus.say(msg)
