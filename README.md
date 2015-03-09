@@ -5,9 +5,9 @@
 ## Uso:
 
 ```
-import eduardo
+from eduardo import Ed
 
-nicolas = eduardo.Ed(name='Nicolas')
+nicolas = Ed(name='Nicolas')
 
 texto = nicolas.name + ': ' + nicolas.say('Oi.')
 
