@@ -7,7 +7,7 @@
 ```
 import eduardo
 
-nicolas = ed.Ed(
+nicolas = eduardo.Ed(
     name='Nicolas',
     port='8085')
 
