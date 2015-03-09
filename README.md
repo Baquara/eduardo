@@ -1,8 +1,8 @@
 # eduardo
 
-## Interface em Python para o [Robô Ed](http://www.ed.conpet.gov.br/br/converse.php
+### Interface em Python para o [Robô Ed](http://www.ed.conpet.gov.br/br/converse.php
 
-Uso:
+## Uso:
 
 ```
 import eduardo
