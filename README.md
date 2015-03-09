@@ -9,7 +9,7 @@ from eduardo import Ed
 
 ed = Ed()
 
-print('Clique <ctrl> + C para sair')
+print('Pressione <ctrl> + C para sair')
 
 while True:
     msg = input('Você: ')
