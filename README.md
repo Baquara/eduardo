@@ -14,7 +14,7 @@ print('Pressione <ctrl> + C para sair')
 while True:
     msg = input('Você: ')
     texto = ed.name + ': ' + ed.say(msg)
-
+    print(texto)
 ```
 
 Vide o script `dialogo.py` para um exemplo mais elaborado.
