@@ -14,8 +14,7 @@ class Ed(object):
 
     def say(self, text):
         svr = self.server + ':' + self.port
-        params = dict(server=svr,charset_post='utf-8',
-        charset='utf-8',pure=1,js=0,tst=1, msg=text)
+        params = dict(server=svr,pure=1,js=0,tst=1,msg=text)
 
         r = requests.get(self.url, params=params)
         return re.sub(r'\n+$','', r.text)
