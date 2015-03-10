@@ -19,3 +19,4 @@ class Ed(object):
 
         r = requests.get(self.url, params=params)
         return re.sub(r'\n+$','', r.text)
+
