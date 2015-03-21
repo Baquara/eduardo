@@ -17,5 +17,6 @@ class Ed(object):
         params = dict(server=svr,pure=1,js=0,tst=1,msg=text)
 
         r = requests.get(self.url, params=params)
-        return re.sub(r'\n+$','', r.text)
+        no_breaklines = re.sub(r'\n+$','', r.text)
+        return re.sub('<[^<]+?>', '', no_breaklines)
 
